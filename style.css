@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    overflow: hidden;
+    display: grid;
     background-color: rosybrown;
     color: white;
     text-align: center;
@@ -14,45 +14,47 @@ body{
 
 }
 .container{
-    height: 70vh;
+    height: 80vmin;
     display: flex;
     justify-content: center;
     
 }
 .game{
-    width: 60vh;
-    height: 60vh ;
+    width: 74vmin;
+    height: 68vmin ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5px;
-    padding: 10px;
+    margin: 1vmin;
+    padding: 1vmin;
     align-items: center;
-    gap: 1.5vmin;
+    gap: 0.5vmin;
  
 }
 .box{
-    width: 18vh;
-    height: 24vh;
-    margin: 2px;
+    width: 17vh;
+    height: 20vh;
+    margin: 2vh;
     background-color: black;
     color: white;
     border-radius: 29px;
     font-size: 10vh;
 }
 .restart{
-    height:25px;
-    width:57px;
+    width:13vmin;
+    height: 4vmin;
+    border-radius: 16vmin;
     background-color: red;
     color: white;
-    border-radius: 16px;
-    margin: 84px;
+    margin: 1vmin;
 }
 .newgame{
     background-color: red;
     color: white;
-    border-radius: 16px;
-    margin: 4px;
+    width:13vmin;
+    height: 4vmin;
+    border-radius: 16vmin;
+    margin-top: 1vmin;
 }
 .msg-container{
     text-align: left;
